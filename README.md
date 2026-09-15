@@ -7,6 +7,7 @@ connectivity, and local density regulation are combined to prevent convergence t
 steady states. A 134-cell seed grows past tens of thousands of cells of sustained,
 self-similar structure that holds up under magnification.
 
+Watch the demo By clicking the picture below!
  [![Watch the demo](assets/screenshots/youtube_thumbnail.png)](https://www.youtube.com/watch?v=I_RSyR-6C6Q)
 
 ## What it is, formally
@@ -50,15 +51,12 @@ area.
 
 ![Box-counting dimension log-log fit](assets/box_counting_loglog.png)
 
-D ≈ 1.53 (R²=0.984 across 7 octaves of scale, ε = 1 to 128) — a genuine, defensible number
-for "fractal," strictly between a 1-dimensional skeleton and a 2-dimensional filled region.
+D ≈ 1.53 (R²=0.984 across 7 octaves of scale, ε = 1 to 128), a number that supports the idea of "fractal", strictly between a 1-dimensional skeleton and a 2-dimensional filled region.
 
 **Trivial steady states** — global population extinction is structurally unreachable (growth
 rules only add cells; pruning always leaves a center cell behind). But each color is a
 one-way, non-regenerating species — only a cell of color X ever spawns more of color X, so
-once a color's population hits zero it cannot reappear. In this run, YELLOW went fully extinct
-by generation ~285 while total population kept growing (final breakdown: BLUE 14,628 /
-PURPLE 6,622 / PINK 4,744 / YELLOW 0). Per-species extinction is a real trivial steady state
+once a color's population hits zero it cannot reappear. Per-species extinction is a real trivial steady state
 distinct from population-level extinction.
 
 **Symmetry** — confirmed empirically, not just by inspection: asymmetric at generation 0 (raw
