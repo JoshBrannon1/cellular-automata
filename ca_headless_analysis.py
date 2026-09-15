@@ -5,22 +5,6 @@ Extracts the transition rule (run_simulation_step) from the pygame program
 with zero behavioral changes -- only the display/input loop is removed --
 so the growth dynamics measured here are exactly what the interactive
 program computes, just without the 60fps redraw ceiling.
-
-Produces, from an actual run rather than inference:
-  1. population vs. generation (generations, not wall-clock time)
-  2. a power-law vs. exponential fit to that growth curve
-  3. a box-counting dimension estimate on the final occupied-cell set
-  4. an empirical check of the claimed Klein four-group symmetry
-  5. a per-generation count of PURPLE prune events (density-regulation activity)
-
-Seed caveat: the original 134-cell seed was hand-drawn with the mouse and
-was not recorded anywhere retrievable, so this harness uses a reproducible
-stand-in seed (fixed RNG seed, documented below) of the same size instead.
-Growth-law exponent and fractal dimension are properties of the transition
-rule's dynamics and are expected to be robust to the specific seed (as long
-as it's a sparse, non-degenerate scatter); the exact generation count to
-cross 70,000 cells is seed-dependent and should be read as illustrative,
-not as a reproduction of the original run.
 """
 
 import json
