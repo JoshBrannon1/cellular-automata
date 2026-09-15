@@ -7,17 +7,7 @@ connectivity, and local density regulation are combined to prevent convergence t
 steady states. A 134-cell seed grows past tens of thousands of cells of sustained,
 self-similar structure that holds up under magnification.
 
-<!--
-  Add screenshots here, e.g.:
-  ![Zoomed-in fractal structure](assets/screenshots/zoom.png)
-  ![Full grid overview](assets/screenshots/overview.png)
--->
-
-<!--
-  Add the YouTube demo here (GitHub markdown can't embed a player directly, so link a
-  thumbnail — replace VIDEO_ID and the thumbnail path):
-  [![Watch the demo](assets/screenshots/youtube_thumbnail.png)](https://www.youtube.com/watch?v=VIDEO_ID)
--->
+ [![Watch the demo](assets/screenshots/youtube_thumbnail.png)](https://www.youtube.com/watch?v=I_RSyR-6C6Q)
 
 ## What it is, formally
 
