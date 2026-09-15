@@ -7,7 +7,8 @@ connectivity, and local density regulation are combined to prevent convergence t
 steady states. A 134-cell seed grows past tens of thousands of cells of sustained,
 self-similar structure that holds up under magnification.
 
-Watch the demo By clicking the picture below!
+***Watch the demo By clicking the picture below!***
+
  [![Watch the demo](assets/screenshots/youtube_thumbnail.png)](https://www.youtube.com/watch?v=I_RSyR-6C6Q)
 
 ## What it is, formally
