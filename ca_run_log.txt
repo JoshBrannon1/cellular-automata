@@ -1,0 +1,92 @@
+Seed: 134 cells (target size 134; stand-in RNG seed 20240915)
+Symmetric at generation 0: False  (expected False -- seed is pre-symmetrization)
+  gen   5: population=    363  prune_events=   58  elapsed=   0.0s
+  gen  10: population=    442  prune_events=  361  elapsed=   0.0s
+  gen  15: population=    728  prune_events=  387  elapsed=   0.1s
+  gen  20: population=    700  prune_events=  714  elapsed=   0.1s
+  gen  25: population=    788  prune_events=  398  elapsed=   0.1s
+  gen  30: population=    968  prune_events=  434  elapsed=   0.1s
+  gen  35: population=   1114  prune_events=  826  elapsed=   0.2s
+  gen  40: population=   1094  prune_events=  772  elapsed=   0.2s
+  gen  45: population=   1314  prune_events= 1168  elapsed=   0.3s
+  gen  50: population=   1670  prune_events=  296  elapsed=   0.3s
+  gen  55: population=   1940  prune_events=  768  elapsed=   0.4s
+  gen  60: population=   2186  prune_events= 1172  elapsed=   0.5s
+  gen  65: population=   1970  prune_events= 1704  elapsed=   0.6s
+  gen  70: population=   2376  prune_events= 1056  elapsed=   0.7s
+  gen  75: population=   2624  prune_events= 1196  elapsed=   0.7s
+  gen  80: population=   2802  prune_events= 1644  elapsed=   0.8s
+  gen  85: population=   3066  prune_events= 2010  elapsed=   0.9s
+  gen  90: population=   3784  prune_events= 1984  elapsed=   1.1s
+  gen  95: population=   4320  prune_events= 2002  elapsed=   1.2s
+  gen 100: population=   3960  prune_events= 2030  elapsed=   1.4s
+  gen 105: population=   4964  prune_events= 1890  elapsed=   1.5s
+  gen 110: population=   4894  prune_events= 2391  elapsed=   1.7s
+  gen 115: population=   6002  prune_events= 2174  elapsed=   1.9s
+  gen 120: population=   5734  prune_events= 3484  elapsed=   2.1s
+  gen 125: population=   6194  prune_events= 3194  elapsed=   2.4s
+  gen 130: population=   6914  prune_events= 3986  elapsed=   2.6s
+  gen 135: population=   7064  prune_events= 2864  elapsed=   2.8s
+  gen 140: population=   6620  prune_events= 2870  elapsed=   3.1s
+  gen 145: population=   6678  prune_events= 3698  elapsed=   3.3s
+  gen 150: population=   7756  prune_events= 3220  elapsed=   3.6s
+  gen 155: population=   8108  prune_events= 2974  elapsed=   4.0s
+  gen 160: population=   9090  prune_events= 3136  elapsed=   4.3s
+  gen 165: population=   8874  prune_events= 4252  elapsed=   4.6s
+  gen 170: population=   9632  prune_events= 2856  elapsed=   4.9s
+  gen 175: population=   9772  prune_events= 5274  elapsed=   5.3s
+  gen 180: population=  10410  prune_events= 4564  elapsed=   5.7s
+  gen 185: population=  11444  prune_events= 4198  elapsed=   6.1s
+  gen 190: population=  12738  prune_events= 5060  elapsed=   6.4s
+  gen 195: population=  12440  prune_events= 6548  elapsed=   6.9s
+  gen 200: population=  13848  prune_events= 6374  elapsed=   7.4s
+  gen 205: population=  15192  prune_events= 7612  elapsed=   8.0s
+  gen 210: population=  15156  prune_events= 7188  elapsed=   8.7s
+  gen 215: population=  16320  prune_events= 7256  elapsed=   9.5s
+  gen 220: population=  16946  prune_events= 8926  elapsed=  10.3s
+  gen 225: population=  16924  prune_events= 7960  elapsed=  11.1s
+  gen 230: population=  17854  prune_events= 7524  elapsed=  11.8s
+  gen 235: population=  18472  prune_events= 7376  elapsed=  12.5s
+  gen 240: population=  18214  prune_events= 9132  elapsed=  13.2s
+  gen 245: population=  18942  prune_events= 9034  elapsed=  14.1s
+  gen 250: population=  19338  prune_events= 7552  elapsed=  14.8s
+  gen 255: population=  19596  prune_events= 9434  elapsed=  15.7s
+  gen 260: population=  21370  prune_events= 8036  elapsed=  16.7s
+  gen 265: population=  21740  prune_events=10156  elapsed=  17.6s
+  gen 270: population=  22179  prune_events=12277  elapsed=  18.6s
+  gen 275: population=  22658  prune_events=12723  elapsed=  19.7s
+  gen 280: population=  23722  prune_events=12224  elapsed=  20.9s
+  gen 284: population=  25668  prune_events=12160  elapsed=  21.8s
+  gen 285: population=  24884  prune_events=13320  elapsed=  22.1s
+
+Ran 287 generations in 22.62s wall-clock.
+Crossed 25000 cells at generation 284.
+Symmetric at final generation: True
+
+--- Growth law fit ---
+Power law   log(N) = 1.180*log(g) + 3.129   R^2 = 0.9336
+Exponential log(N) = 0.01369*g + 6.674   R^2 = 0.9295
+
+Extrapolated generation to reach 70,000 cells (power-law fit): 897.6
+
+--- Box-counting dimension (final grid) ---
+Occupied cells: 25994
+eps values used: [1, 2, 4, 8, 16, 32, 64, 128]
+  eps=   1  N(eps)= 25994  log(1/eps)=0.000  log N=10.166
+  eps=   2  N(eps)= 16059  log(1/eps)=-0.693  log N=9.684
+  eps=   4  N(eps)=  7898  log(1/eps)=-1.386  log N=8.974
+  eps=   8  N(eps)=  2920  log(1/eps)=-2.079  log N=7.979
+  eps=  16  N(eps)=   836  log(1/eps)=-2.773  log N=6.729
+  eps=  32  N(eps)=   220  log(1/eps)=-3.466  log N=5.394
+  eps=  64  N(eps)=    60  log(1/eps)=-4.159  log N=4.094
+  eps= 128  N(eps)=    24  log(1/eps)=-4.852  log N=3.178
+Estimated box-counting dimension D = 1.526  (fit R^2 = 0.9835)
+
+--- Final color breakdown ---
+  BLUE: 14628
+  PINK: 4744
+  PURPLE: 6622
+
+Total PURPLE prune events across run: 1284783
+
+Raw results written to ca_headless_results.json
