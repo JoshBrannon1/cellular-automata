@@ -1,4 +1,4 @@
-# Cellular Automata: Kinetic Symmetry & Macro-Zoom
+# My Cellular Automata System
 
 An engine that computes cell states from local transition rules and renders them on a
 resizable, zoomable grid, built to test how much self-similar structure can emerge from rules
@@ -7,7 +7,7 @@ connectivity, and local density regulation are combined to prevent convergence t
 steady states. A 134-cell seed grows past tens of thousands of cells of sustained,
 self-similar structure that holds up under magnification.
 
-### ***Watch the demo By clicking the picture below!***
+### ***Watch the demo By clicking the picture below***
 
  [![Watch the demo](assets/screenshots/youtube_thumbnail.png)](https://www.youtube.com/watch?v=I_RSyR-6C6Q)
 
